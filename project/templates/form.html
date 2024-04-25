@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City input</title>
+    <link rel="stylesheet" href="static/form.css">
+</head>
+<body>
+    <form action="/weather" method="POST">
+        <label for="city">Enter city: </label>
+        <input type="text" id="city" name="city" required minlength="4" maxlength="20" size="10" />
+        <button type="submit" class="btn-primary">Check Weather</button>
+    </form>
+</body>
+</html>
